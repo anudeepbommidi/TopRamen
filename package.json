@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode=development --watch"
+    "dev": "webpack --mode=development --watch",
+    "prod": "webpack --mode=production",
+    "start": "npm run prod"
   },
   "author": "Anudeep Bommidi",
   "license": "ISC",
