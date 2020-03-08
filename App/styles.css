@@ -1,0 +1,70 @@
+body {
+    background-color:#e3edf1;
+}
+
+i {
+    color: #867878;
+}
+
+i.fa-cutlery {
+    color: black;
+}
+
+.navbar-dark.bg-dark {
+    background-color: #406192!important;   
+}
+
+.pull-right {
+    float: right;
+}
+
+.year-badge {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.year-badge .badge-dark {
+    background-color: #406192;
+    margin-bottom: 10px;
+}
+
+.loader {
+    position: absolute;
+    background: #fff;
+    z-index: 99;
+    top: 0;
+    left: 0;
+}
+
+.loader-icon {
+    color: #424277;
+    font-size: 10rem;
+    display: inline-block;
+    margin-left: calc(50% - 5rem);
+    margin-top: calc(25% - 5rem);
+}
+
+#countries > .dropdown-container {
+    margin-left: auto;
+    order: 2;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+
+.dropdown-container .dropdown, .dropdown-container .filter-by {
+    flex: 1 1 auto;
+}
+
+.dropdown-container .filter-by {
+    padding-top: 5px;
+}
+
+#countries .btn-secondary {
+    background-color: #406192;
+    border-color: #406192;
+}
+
+.btn-outline {
+    color: #fff;
+    border-color: #fff;
+}

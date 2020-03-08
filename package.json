@@ -1,0 +1,36 @@
+{
+  "name": "topramen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development --watch"
+  },
+  "author": "Anudeep Bommidi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-async-to-generator": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "browserslist": [
+    "last 2 chrome versions"
+  ]
+}
